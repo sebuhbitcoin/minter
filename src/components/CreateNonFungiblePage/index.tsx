@@ -208,8 +208,7 @@ export default function CreateNonFungiblePage() {
                     <span role="img" aria-label="lightbulb">
                       🌱
                     </span>{' '}
-                    Minting on Tezos produces 1,500,000 times less CO2 emissions
-                    than Ethereum.
+                    Minting on nft.sebuh.net is helping Sebuh grow in the NFT space on Tezos.
                   </Text>
                 </>
               }
