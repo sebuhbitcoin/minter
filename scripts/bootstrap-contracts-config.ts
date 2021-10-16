@@ -20,9 +20,9 @@ function toHexString(input: string) {
 export function initStorageNftFaucet() {
   const metadata = new MichelsonMap<string, string>();
   const contents = {
-    name: 'Minter',
-    description: 'An OpenMinter base collection contract.',
-    interfaces: ['TZIP-012', 'TZIP-016', 'TZIP-020'],
+    name: 'nft.sebuh.net',
+    description: 'A contract for Sebuh Honarhians collection of photographs.',
+    interfaces: ['TZIP-012', 'TZIP-016', 'TZIP-021'],
     tokenCategory: 'collectibles'
   };
   metadata.set('', toHexString('tezos-storage:contents'));
